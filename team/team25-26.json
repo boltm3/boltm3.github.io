@@ -2,61 +2,13 @@
     {
       "name": "Miras",
       "role": "Coder",
-      "description": "Quakep",
+      "description": "You can call me Quakep",
       "image": "https://pub-689b5ee003be4fca86e8e73825b0eb72.r2.dev/Q.png"
     },
     {
-      "name": "Zhubanysh",
-      "role": "Programmer",
-      "description": "I enjoy Minecraft, manga, STEM, solitude when tired, and value meaningful connections.",
-      "image": "https://i.ibb.co.com/FW8Qwyt/boltm3-zhuba.png"
-    },
-    {
-      "name": "Aizerek",
-      "role": "Handbook Engineer",
-      "description": "I love organizing ideas and turning them into clear plans.",
-      "image": "https://ad2ab94.webp.ee/Aizerek.jpg"
-    },
-    {
-      "name": "Mukagali",
-      "role": "Captain",
-      "description": "A driven leader who thrives on teamwork and innovation.",
-      "image": "https://ad2ab94.webp.ee/Mukagali.jpg"
-    },
-    {
-      "name": "Sultan",
-      "role": "Engineer",
-      "description": "Positive engineer who enjoys solving problems and learning new things.",
-      "image": "https://ad2ab94.webp.ee/"
-    },
-    {
-      "name": "Jangir",
-      "role": "Engineer",
-      "description": "Curious problem-solver who enjoys hands-on challenges.",
-      "image": "https://ad2ab94.webp.ee/Jangir.jpg"
-    },
-    {
-      "name": "Binar",
-      "role": "Engineer",
-      "description": "Detail-oriented and eager to contribute to innovative projects.",
-      "image": "https://ad2ab94.webp.ee/Binar.jpg"
-    },
-    {
-      "name": "Dauren",
-      "role": "Programmer",
-      "description": "I love washing the floor and writing clean, efficient code.",
-      "image": "https://ad2ab94.webp.ee/"
-    },
-    {
-      "name": "Omar",
-      "role": "Inspire",
-      "description": "Enthusiastic and ready to spark creativity within the team.",
-      "image": "https://ad2ab94.webp.ee/Omar.jpg"
-    },
-    {
-      "name": "Eraly",
-      "role": "Engineer",
-      "description": "Dedicated to creating practical solutions with precision.",
-      "image": "https://ad2ab94.webp.ee/Eraly.jpg"
+      "name": "Erdar",
+      "role": "Coder",
+      "description": "I love Maxi-Chai, free doners and sanwiches 'LUBITELSKIY'.",
+      "image": "https://pub-689b5ee003be4fca86e8e73825b0eb72.r2.dev/Erdar.jpeg"
     }
 ]
