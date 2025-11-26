@@ -2,7 +2,7 @@
     {
       "name": "Miras",
       "role": "Coder",
-      "description": "You can call me Quakep",
+      "description": "You can call me Quakep.",
       "image": "https://pub-689b5ee003be4fca86e8e73825b0eb72.r2.dev/Q.png"
     },
     {
@@ -10,5 +10,11 @@
       "role": "Coder",
       "description": "I love Maxi-Chai, free doners and sanwiches 'LUBITELSKIY'.",
       "image": "https://pub-689b5ee003be4fca86e8e73825b0eb72.r2.dev/Erdar.jpeg"
-    }
+    },
+    {
+      "name": "Timur",
+      "role": "Engineer",
+      "description": "I enjoy sleeping and playing soccer",
+      "image": "https://pub-689b5ee003be4fca86e8e73825b0eb72.r2.dev/Timur.jpeg"
+    },
 ]
