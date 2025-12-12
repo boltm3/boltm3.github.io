@@ -2,14 +2,149 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0;url=/" />
-    <title>Redirecting...</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Sponsors</title>
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://boltm3.image.firstinspireskz.org/a.svg"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.10/tailwindcss.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
   </head>
-  <body>
-    <p>
-      If the page doesn't automatically redirect, click <a href="/">here</a>.
-    </p>
-    <p>Note: This page is currently under development.</p>
+
+  <body class="bg-[#2a2b2d] text-white">
+
+    <!-- NAVBAR -->
+    <nav class="flex items-center justify-between p-6 bg-[#1a1b1d] shadow-md">
+      <a href="/">
+        <img
+          src="https://boltm3.image.firstinspireskz.org/a.svg"
+          alt="Logo"
+          class="h-12 hover:scale-105 transition-transform duration-200 ease-in-out"
+        />
+      </a>
+
+      <div class="lg:hidden">
+        <button class="text-white focus:outline-none" onclick="toggleMenu()">
+          <i class="fa fa-bars text-2xl"></i>
+        </button>
+      </div>
+
+      <ul class="hidden lg:flex space-x-8 text-lg font-semibold">
+        <li><a href="/" class="text-white hover:text-red-500">Home</a></li>
+        <li><a href="/team" class="text-white hover:text-red-500">Team</a></li>
+        <li>
+          <a href="https://zertte-studio.kz/" class="text-white hover:text-red-500"
+            >Zertte Studio</a
+          >
+        </li>
+        <li><a href="/chat" class="text-white hover:text-red-500">Chat</a></li>
+        <li><a href="/sponsors" class="text-red-500">Sponsors</a></li>
+      </ul>
+
+      <div
+        id="mobileMenu"
+        class="lg:hidden absolute top-16 left-0 w-full bg-[#1a1b1d] text-center hidden"
+      >
+        <ul class="space-y-4 py-4">
+          <li><a href="/" class="text-white hover:text-red-500 block">Home</a></li>
+          <li><a href="/team" class="text-white hover:text-red-500 block">Team</a></li>
+          <li>
+            <a href="https://zertte-studio.kz/" class="text-white hover:text-red-500 block"
+              >Zertte Studio</a
+            >
+          </li>
+          <li><a href="/chat" class="text-white hover:text-red-500 block">Chat</a></li>
+          <li><a href="/sponsors" class="text-red-500 block">Sponsors</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="max-w-5xl mx-auto px-6 py-16">
+      <h1 class="text-5xl font-bold text-center mb-10">Our Sponsors</h1>
+      <p class="text-center text-gray-300 mb-16 text-lg">
+        We thank our partners who support our mission and help us grow.
+      </p>
+
+      <!-- SPONSORS GRID -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+        <!-- Sponsor Example -->
+        <a href="https://fizmat.kz/" target="_blank" class="block">
+          <div class="bg-[#1a1b1d] p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:scale-105 transition cursor-pointer">
+            <img src="https://boltm3.image.firstinspireskz.org/f.svg" alt="Sponsor" class="h-24 mb-6" />
+            <h2 class="text-2xl font-semibold">NSPhM</h2>
+            <p class="text-gray-400 mt-2">Main sponsor</p>
+          </div>
+        </a>
+
+        <a href="https://zertte-studio.kz/" target="_blank" class="block">
+          <div class="bg-[#1a1b1d] p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:scale-105 transition cursor-pointer">
+            <img src="https://boltm3.image.firstinspireskz.org/b.svg" alt="Sponsor" class="h-24 mb-6" />
+            <h2 class="text-2xl font-semibold">Zertte Studio</h2>
+            <p class="text-gray-400 mt-2">Laboratory</p>
+          </div>
+        </a>
+
+        <a href="https://caravanofknowledge.com/" target="_blank" class="block">
+          <div class="bg-[#1a1b1d] p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:scale-105 transition cursor-pointer">
+            <img src="https://boltm3.image.firstinspireskz.org/d.svg" alt="Sponsor" class="h-24 mb-6" />
+            <h2 class="text-2xl font-semibold">Caravan of Knowledge</h2>
+            <p class="text-gray-400 mt-2">Sponsor Description</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1a1b1d] p-6 mt-16">
+      <div class="flex justify-center items-center mb-8 space-x-16">
+        <div class="flex flex-col items-center">
+          <img
+            src="https://ad2ab94.webp.ee/logo-bigger.webp"
+            alt="Bolt.m3 Logo"
+            class="h-16 mb-4"
+          />
+          <div class="flex space-x-4 mb-4">
+            <a href="https://www.instagram.com/bolt.m3/" class="text-white hover:text-red-500">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.tiktok.com/@bolt.m3_ftc" class="text-white hover:text-red-500">
+              <i class="fab fa-tiktok fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCuSTuLznWnVQ2FV-f8L-xHA" class="text-white hover:text-red-500">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col items-start ml-8">
+          <a href="/team" class="text-lg font-semibold text-white hover:text-red-500 mb-2">Team</a>
+          <a href="https://zertte-studio.kz/" class="text-lg font-semibold text-white hover:text-red-500 mb-2">Zertte Studio</a>
+          <a href="/chat" class="text-lg font-semibold text-white hover:text-red-500 mb-2">Chat</a>
+          <a href="/sponsors" class="text-lg font-semibold text-white hover:text-red-500 mb-2">Sponsors</a>
+        </div>
+      </div>
+
+      <p class="text-center text-gray-400 text-sm">
+        © 2025 Quakep. All rights reserved.
+      </p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobileMenu");
+        menu.classList.toggle("hidden");
+      }
+    </script>
   </body>
 </html>
